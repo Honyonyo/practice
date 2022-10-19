@@ -1,0 +1,17 @@
+﻿  GameBingo.cpp
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(31,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(64,4): warning C4809: switch 문에 중복 'default' 레이블이 있습니다. 가능한 모든 'case' 레이블이 제공됩니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(85,4): warning C4809: switch 문에 중복 'default' 레이블이 있습니다. 가능한 모든 'case' 레이블이 제공됩니다.
+  Main.cpp
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(31,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(64,4): warning C4809: switch 문에 중복 'default' 레이블이 있습니다. 가능한 모든 'case' 레이블이 제공됩니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\GameBingo.cpp(85,4): warning C4809: switch 문에 중복 'default' 레이블이 있습니다. 가능한 모든 'case' 레이블이 제공됩니다.
+  코드를 생성하고 있습니다...
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::boardSetting(void)" (?boardSetting@GameBingo@@QEAAXXZ)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::boardSpread(int)" (?boardSpread@GameBingo@@QEAAXH@Z)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::boardSpread(void)" (?boardSpread@GameBingo@@QEAAXXZ)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::findNumber(int)" (?findNumber@GameBingo@@QEAAXH@Z)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::inputNumber(void)" (?inputNumber@GameBingo@@QEAAXXZ)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: bool __cdecl GameBingo::isFiveBingo(void)" (?isFiveBingo@GameBingo@@QEAA_NXZ)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+Main.obj : error LNK2005: "public: void __cdecl GameBingo::m_bingoCounter(void)" (?m_bingoCounter@GameBingo@@QEAAXXZ)이(가) GameBingo.obj에 이미 정의되어 있습니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\BINGO\x64\Debug\BINGO.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

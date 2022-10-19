@@ -1,0 +1,8 @@
+﻿  Family.cpp
+  Main.cpp
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\HomeworkFamily\HomeworkFamily\Main.cpp(3,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\HomeworkFamily\HomeworkFamily\Main.cpp(4,61): error C2440: '<function-style-cast>': 'initializer list'에서 'C_Family'(으)로 변환할 수 없습니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\HomeworkFamily\HomeworkFamily\Main.cpp(4,61): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\HomeworkFamily\HomeworkFamily\Main.cpp(4,15): error C2512: 'C_Family': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+C:\Users\6464r\OneDrive\Documents\GitHub\practice\221019 수\HomeworkFamily\HomeworkFamily\Family.h(7,7): message : 'C_Family' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...

@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <time.h>
+#include <Windows.h>
 using namespace std;
 
 //클래스 선언부
@@ -11,23 +12,42 @@ using namespace std;
 class GameBingo
 {private:
 	int board[5][5];	//빙고판
+	bool callNum[25];	//0 일반상태 1 선택한것
 	int bingoCount = 0;	//빙고 몇 줄인지 세는것
-	int turn = 0;
-	int inputNumber;
-	int indexI, indexJ;
-	int tmp;
 
+	int turn = 0;
+
+	int* storage = new int;
+	int inputNum;
+	int indexI, indexJ;
+
+	int tmp=NULL;
+	int token = 25;
+
+	//GameBingo();
 
 public:
 	//5*5빙고판 만들기
 	void boardSetting();	
-	//빙고판 비주얼로 뿌리기
+	//빙고판 화면에 뿌리기
 	void boardSpread();
+	//빙고판 화면에 뿌리기 - 선택한 숫자 보이기 오버로드
+	void boardSpread(int a);
 
-	//입력받은 숫자 위치를 오픈하고 @로 칠하고 숫자값을 25로 바꾸는 기능
-	void openNumber(int num);		
+		//입력받은 숫자 위치를 찾고 숫자값을 25로 바꾸는 기능
+	void findNumber(int num);		
+
+	//숫자 입력기
+	void inputNumber();
+
+	void plusBingoCount() {
+		if (tmp == (token * 5))	bingoCount++;
+		tmp = NULL;
+	}
+
 	//빙고카운트변수랑 헷갈려서 m_붙였는데...
-	void m_bingoCounter();	
+	void m_bingoCounter(); 
 
+	bool isFiveBingo();
 };
 
